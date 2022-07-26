@@ -42,12 +42,9 @@ _____________________________
 <h2 align="center"> 
  <p align="center">   
 
- <img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=YABOIpy&layout=compact&theme=dark"> 
-
-  
-  
-  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YABOIpy&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+ <img height=130 src="https://github-readme-stats.vercel.app/api/top-langs/?username=YABOIpy&layout=compact&theme=dark"> 
+ 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YABOIpy&langs_count=8&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 
  </h2> 
