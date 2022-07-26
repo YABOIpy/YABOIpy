@@ -42,13 +42,13 @@ _____________________________
 <h2 align="center"> 
  <p align="center">   
 
- <img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=YABOI-py&layout=compact&theme=dark"> 
+ <img height=150 src="https://github-readme-stats.vercel.app/api/top-langs/?username=YABOIpy&layout=compact&theme=dark"> 
 
   
   
   
   
- <img height=150 src="https://github-readme-stats.vercel.app/api?username=YABOI-py&count_private=true&show_icons=true&theme=dark"> 
+ <img height=150 src="https://github-readme-stats.vercel.app/api?username=YABOIpy&count_private=true&show_icons=true&theme=dark"> 
 
  </h2> 
 
