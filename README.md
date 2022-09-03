@@ -5,7 +5,7 @@
 <h3 align="center">
 
 
-<p align="center"> <img src="https://images.wallpaperscraft.com/image/single/anime_girl_leaves_162517_2560x1080.jpg" /> </p>
+<p align="center"> <img src="https://media.discordapp.net/attachments/1009078423299305483/1015741773676556468/maxresdefault.jpg" /> </p>
 
 
   
