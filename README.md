@@ -6,7 +6,7 @@
 
 
 ```python
-import httpx, time
+import httpx, time, os
 
 
 def main(user):
@@ -41,6 +41,7 @@ def menu():
     else:
         print("User: ",user, + "Not Found")
         time.sleep(1)
+        os.system("cls||clear")
         menu()
 menu()
 
