@@ -2,42 +2,70 @@
 ```
   	                                                    YABOI
 ```
-<h3 align="center">
 
 
-<p align="center"> <img src="https://media.discordapp.net/attachments/1009078423299305483/1015741773676556468/maxresdefault.jpg" /> </p>
+
+```python
+import httpx
+
+
+def main(user):
+
+    headers = {
+      "content-type": "application/json"
+      "auth": "aWxvdmVjdW5ueQ=="
+    }
+    payload = {
+      "username": user
+    }
+    try:
+        x = client.get(f"http://yaboi.com/database/{user}/info", headers=headers, json=payload)
+        if x.status_code == 200:
+            print(x.json)
+        elif x.status_code != 200, 201, 204:
+            print("Failed: ", x.text)
+          
+      except Exception as err:
+          print(err)
+
+
+user  = input("[>] Username: ")
+proxy = "nl.yaboi.com:6969"
+proxies = {"http://": f"http://{proxy}"}
+client = httpx.Client(proxies=proxies)
+main(user)
+
+
+
+-----------------CONSOLE-----------------
+[>] Username: YABOI
+{
+  "YABOI": {
+     "connections": {
+        "Server": "https://discord.gg/downcord"
+        "Discord": "YABOI#0001",
+        "Telegram": "https://t.me/yaboipy"
+        },
+     "Coding Langs": {
+        "Python": "90%",
+        "GoLang": "30%",
+        "Ruby": "10%" ,
+        "JS": "5%"
+     },
+     "About": {
+        "yaboi": "Racist"
+     }
+   }
+}
+------------------------------------------
+
+```
 
 
   
 </h1>
 
 
-
-
-```
-ABOUT
-_____________________________
-
-- Learning Kotlin/JavaScript/Ruby
- 
-- Learning Software Development
-
-- Turk Roacher
-
-- https://downcord.github.io
-
-- arch/win 10
-_____________________________
-
-```
-```
-connections:
-_____________________________
-YABOI#7377
-https://t.me/yaboipy
-https://discord.gg/dwncord
-_____________________________
-```
 
 <h2 align="center"> 
  <p align="center">   
