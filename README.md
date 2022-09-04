@@ -35,8 +35,9 @@ proxies = {"http://": f"http://{proxy}"}
 client = httpx.Client(proxies=proxies)
 main(user)
 
+```
 
-
+```cmd
 -----------------CONSOLE-----------------
 [>] Username: YABOI
 {
@@ -60,8 +61,6 @@ main(user)
 ------------------------------------------
 
 ```
-
-
   
 </h1>
 
