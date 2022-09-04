@@ -6,7 +6,7 @@
 
 
 ```python
-import httpx
+import httpx, time
 
 
 def main(user):
@@ -22,18 +22,27 @@ def main(user):
         x = client.get(f"http://yaboi.com/database/{user}/info", headers=headers, json=payload)
         if x.status_code == 200:
             print(x.json)
-        elif x.status_code != 200, 201, 204:
+        elif x.status_code != 200:
             print("Failed: ", x.text)
           
-      except Exception as err:
-          print(err)
+     except Exception as err:
+         print(err)
 
 
-user  = input("[>] Username: ")
-proxy = "nl.yaboi.com:6969"
-proxies = {"http://": f"http://{proxy}"}
-client = httpx.Client(proxies=proxies)
-main(user)
+def menu():
+    global client
+    db = client.get(f"http://yaboi.com/database").text.splitlines()
+    user  = input("[>] Username: ")
+    if user in db:
+        proxy = "nl.yaboi.com:6969"
+        proxies = {"http://": f"http://{proxy}"}
+        client = httpx.Client(proxies=proxies)
+        main(user)
+    else:
+        print("User: ",user, + "Not Found")
+        time.sleep(1)
+        menu()
+menu()
 
 ```
 
