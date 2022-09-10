@@ -4,7 +4,12 @@
 ```
 
 
+<details>
 
+  <summary> <h2 align = "center">main.py </h2></summary>
+  <br>
+  
+  
 ```python
 import httpx, time, os
 
@@ -46,6 +51,9 @@ def menu():
 menu()
 
 ```
+
+</p>
+</details>
 
 ```cmd
 -----------------CONSOLE-----------------
