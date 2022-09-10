@@ -6,7 +6,7 @@
 
 <details>
 
-  <summary> <h2 align = "center">main.py </h2></summary>
+  <summary> <h2 align = "center">main.py</h2><h4>. Click to see code </h4></summary>
   <br>
   
   
