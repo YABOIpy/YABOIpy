@@ -72,7 +72,7 @@ menu()
         "JS": "5%"
      },
      "About": {
-        "yaboi": "genius & retarded"
+        "yaboi": "smart & retarded at the same time"
      }
    }
 }
