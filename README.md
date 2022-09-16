@@ -87,12 +87,12 @@ menu()
 <h2 align="center"> 
  <p align="center">   
  
-<img height=170 src="https://github-readme-stats.vercel.app/api/top-langs/?username=YABOIpy&langs_count=8&theme=dark">
+<img height=170 src="https://github-readme-stats.vercel.app/api/top-langs/?username=YABOIpy&langs_count=8&theme=onedark">
 
 
 
 
- <img height=170 src="https://github-readme-stats.vercel.app/api?username=YABOI-py&count_private=true&show_icons=true&theme=dark"> 
+ <img height=170 src="https://github-readme-stats.vercel.app/api?username=YABOI-py&count_private=true&show_icons=true&theme=onedark"> 
  </h2> 
 
  </p> 
