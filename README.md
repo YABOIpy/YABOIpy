@@ -67,7 +67,7 @@ menu()
         },
      "Coding Langs": {
         "Python": "90%",
-        "GoLang": "30%",
+        "GoLang": "60%",
         "Ruby": "10%" ,
         "JS": "5%"
      },
